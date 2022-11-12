@@ -1,4 +1,6 @@
 add these .env local in a .env file or in the env variables
-
-username={yourusername Arangodb}
-password={Yourpassword Arangodb}
+arango_username=fillusername
+arango_password=fillpassword
+arango_database=filldatabase
+sys_username_arango=fillrootuser
+sys_password_arango=fillrootpassword
