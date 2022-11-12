@@ -1,0 +1,4 @@
+add these .env local in a .env file or in the env variables
+
+username={yourusername Arangodb}
+password={Yourpassword Arangodb}
