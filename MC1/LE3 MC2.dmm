@@ -1,0 +1,163 @@
+{
+	"tables": {
+		"00ea2718-08f1-4340-93d5-7ce3d632e21b": {
+			"id": "00ea2718-08f1-4340-93d5-7ce3d632e21b",
+			"visible": true,
+			"name": "User",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "9ad68a81-fd3f-499b-882a-dde5f6789682",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"objectType": "table"
+		},
+		"754a7e8c-b585-41dc-9886-42b7ac6e6498": {
+			"id": "754a7e8c-b585-41dc-9886-42b7ac6e6498",
+			"visible": true,
+			"name": "Books",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "e5a9b83a-c526-4749-9286-12762e964faf",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"objectType": "table"
+		},
+		"fe56124b-d9d7-4dd5-a588-c680d2b47a16": {
+			"id": "fe56124b-d9d7-4dd5-a588-c680d2b47a16",
+			"visible": true,
+			"name": "Relation",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "ed8a7635-46be-491a-b99b-177838e7ef4b",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"objectType": "table"
+		}
+	},
+	"relations": {},
+	"notes": {},
+	"lines": {},
+	"model": {
+		"name": "DDI MC2",
+		"id": "f9edab4d-4ee3-4dc5-8e97-7b1bf3794cad",
+		"activeDiagram": "5673ef1f-f8ae-47ee-b01b-b4b70253ca56",
+		"desc": "",
+		"path": "",
+		"type": "LOGICAL",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 5,
+			"minor": 1,
+			"extra": 0
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"writeFileParam": false,
+		"currentDisplayMode": "metadata",
+		"def_coltopk": false
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"5673ef1f-f8ae-47ee-b01b-b4b70253ca56": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "5673ef1f-f8ae-47ee-b01b-b4b70253ca56",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"00ea2718-08f1-4340-93d5-7ce3d632e21b": {
+					"referencedItemId": "00ea2718-08f1-4340-93d5-7ce3d632e21b",
+					"x": 1358,
+					"y": 167,
+					"gHeight": 275,
+					"gWidth": 232,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": true,
+					"autoExpand": true
+				},
+				"754a7e8c-b585-41dc-9886-42b7ac6e6498": {
+					"referencedItemId": "754a7e8c-b585-41dc-9886-42b7ac6e6498",
+					"x": 1640,
+					"y": 166,
+					"gHeight": 276,
+					"gWidth": 249,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": true,
+					"autoExpand": true
+				},
+				"fe56124b-d9d7-4dd5-a588-c680d2b47a16": {
+					"referencedItemId": "fe56124b-d9d7-4dd5-a588-c680d2b47a16",
+					"x": 1924,
+					"y": 164,
+					"gHeight": 272,
+					"gWidth": 243,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": true,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 0
+			},
+			"type": "erd"
+		}
+	},
+	"order": [],
+	"collapsedTreeItems": []
+}
