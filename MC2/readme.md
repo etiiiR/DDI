@@ -35,5 +35,12 @@ Gib dem User die Berechtigungen auf die Datenbank:
 
 ![image](https://user-images.githubusercontent.com/32195170/211159553-e5f816cf-992d-42f8-88b8-c12d46db870e.png)
 
+<br>
+
+bearbeite nun die .env mit den Werten deines neu angelegten Users:
+arango_username=fillusername
+arango_password=fillpassword
+arango_database=filldatabase
+
 
 ## Python run the Notebook with Python 3.10
