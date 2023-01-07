@@ -16,12 +16,15 @@ sys_password_arango=fillrootpassword
 <br>
 <br>
 
+
 ## Docker 
 https://hub.docker.com/_/arangodb
 
 docker run -e ARANGO_RANDOM_ROOT_PASSWORD=1 -d --name arangodb-instance arangodb
 
-## DB User einrichten:
+## DB User muss nicht manuell eingerichtet werden, da er wenn die env variablen richtig gesetzt sind automatisch erstellt im script:
+
+### Will man dennoch einen User Manuell anlegen hier:
 
 ![image](https://user-images.githubusercontent.com/32195170/211159486-1ebd168f-11cf-418d-8ee6-410e2e9b1643.png)
 <br>
