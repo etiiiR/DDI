@@ -38,9 +38,17 @@ Gib dem User die Berechtigungen auf die Datenbank:
 <br>
 
 bearbeite nun die .env mit den Werten deines neu angelegten Users:
+<br>
 arango_username=fillusername
+<br>
 arango_password=fillpassword
+<br>
 arango_database=filldatabase
 
 
 ## Python run the Notebook with Python 3.10
+
+![image](https://user-images.githubusercontent.com/32195170/211159621-dcc38468-2dfe-4c88-80d9-9404a020fc89.png)
+
+![image](https://user-images.githubusercontent.com/32195170/211159626-ad100938-12c2-421f-9faf-51b415e6155a.png)
+
