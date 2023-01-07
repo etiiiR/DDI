@@ -21,4 +21,10 @@ https://hub.docker.com/_/arangodb
 
 docker run -e ARANGO_RANDOM_ROOT_PASSWORD=1 -d --name arangodb-instance arangodb
 
+## DB User einrichten:
+
+![image](https://user-images.githubusercontent.com/32195170/211159486-1ebd168f-11cf-418d-8ee6-410e2e9b1643.png)
+
+
+
 ## Python run the Notebook with Python 3.10
